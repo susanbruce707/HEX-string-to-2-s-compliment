@@ -7,7 +7,7 @@ Created on Sat May 28 02:52:46 2022
 """
 
 # two's compliment hex converter
-# expected input is HEX byte as a string e.g. 'E2' upper or lowwer case don't matter.
+# expected input is HEX byte as a string e.g. 'E2' upper or lower case it doesn't matter.
 
 def twoscomp(hexbyte):
     x = hex(~ (~ (int(hexbyte, 16)) + 1))
